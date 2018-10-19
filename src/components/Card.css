@@ -1,0 +1,48 @@
+.title-card {
+  margin-top: 2em;
+}
+
+.card {
+  /* padding-bottom: 5rem; */
+  position: relative;
+}
+
+.card-label {
+  background: white;
+  /* position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; */
+}
+
+.card .card-label__description {
+  display: none;
+}
+.card.is-open .card-label__description {
+  display: block;
+}
+.card img {
+  display: block;
+}
+
+.card-label__toggle {
+  font-size: 1rem;
+  margin: 0;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.card-label__toggle:focus {
+  outline: none;
+}
+
+.card-label h2 {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin: 0.5rem 0;
+}
+.card-label p {
+  margin: 0;
+}

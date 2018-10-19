@@ -1,0 +1,25 @@
+.app {
+  margin-top: 3rem;
+}
+
+.grid {
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-gap: 0.5rem;
+  max-width: 75rem;
+}
+
+.page-footer {
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem;
+}
+
+.page-footer a {
+  color: white;
+  text-decoration: none;
+}
