@@ -3,9 +3,8 @@ import logo from "../img/MCAD_X.svg";
 
 import "./AppHeader.css";
 
-export default () => (
+export default ({ name }) => (
   <header className="app-header">
-    MCAD <img className="logo" src={logo} alt="X" /> MASTER OF ARTS IN GRAPHIC
-    AND WEB DESIGN
+    MCAD <img className="logo" src={logo} alt="X" /> {name}
   </header>
 );

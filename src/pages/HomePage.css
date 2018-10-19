@@ -1,0 +1,14 @@
+.home-page {
+  max-width: 40rem;
+  margin: auto;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.home-page h1 {
+  font-size: 4rem;
+}
+
+.home-page p {
+  font-size: 2rem;
+}
