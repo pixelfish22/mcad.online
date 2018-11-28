@@ -1,5 +1,6 @@
 .app {
   margin-top: 3rem;
+  background: #ddd;
 }
 
 .grid {
@@ -7,8 +8,8 @@
   padding: 0.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  grid-gap: 0.5rem;
-  max-width: 75rem;
+  grid-gap: 1rem;
+  max-width: 100rem;
 }
 
 .page-footer {

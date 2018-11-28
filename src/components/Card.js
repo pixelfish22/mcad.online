@@ -2,22 +2,20 @@ import React from "react";
 
 import "./Card.css";
 
-const toggleMore = e => {
-  const cardEl = e.target.closest(".card");
-  cardEl.classList.toggle("is-open");
-};
-
 export default ({ title, by, url, img, description }) => (
   <div className="card">
     <a href={url} target="_blank" rel="noopener noreferrer">
-      <img src={img} alt={title} />
+      {img ? (
+        <img src={img} alt={title} />
+      ) : (
+        <div className="img-placeholder">Placeholder</div>
+      )}
     </a>
     <div className="card-label">
-      <h2>{title}</h2>
-      <p>{by}</p>
-      <button onClick={toggleMore} className="card-label__toggle">
-        ...
-      </button>
+      <h2 className="card-label__by">{by}</h2>
+      <a href={url} target="_blank" rel="noopener noreferrer">
+        <p className="card-label__title">{title}</p>
+      </a>
       <p className="card-label__description">{description}</p>
     </div>
   </div>

@@ -1,48 +1,64 @@
 .title-card {
-  margin-top: 2em;
+  margin: 0;
+  padding: 1rem;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.title-card h1,
+.title-card p {
+  font-size: 1rem;
+  margin: 0;
 }
 
 .card {
-  /* padding-bottom: 5rem; */
   position: relative;
+  padding: 1rem;
+  background: #fff;
 }
 
 .card-label {
   background: white;
-  /* position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%; */
-}
-
-.card .card-label__description {
-  display: none;
-}
-.card.is-open .card-label__description {
-  display: block;
 }
 .card img {
   display: block;
+  margin-bottom: 1rem;
 }
 
-.card-label__toggle {
+.card-label h2,
+.card-label p {
   font-size: 1rem;
-  margin: 0;
-  background: transparent;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-}
-
-.card-label__toggle:focus {
-  outline: none;
-}
-
-.card-label h2 {
-  font-size: 1.5rem;
-  line-height: 1;
   margin: 0.5rem 0;
 }
-.card-label p {
-  margin: 0;
+.card-label__by {
+  font-weight: bold;
+}
+.card-label__title {
+  font-style: italic;
+}
+
+.card-label a {
+  color: blue;
+  text-decoration: none;
+}
+
+.card .img-placeholder {
+  background: #ccc;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-placeholder:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
 }
