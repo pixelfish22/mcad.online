@@ -49,7 +49,7 @@ const projects = [
     description: "Fusing passion for Twin Cities drag with design.",
     url:
       "https://mpinkowski.studio.mcad.edu/capstone%20page/dragmecapstone.html",
-    img: "img/pinkowski_melissa_dragme.png"
+    img: "img/pinkowski_melissa_dragme.jpg"
   },
   {
     title: "The Resort at Ailiwi",
@@ -57,14 +57,14 @@ const projects = [
     description:
       "Discover the Tri-State area as the adventure you never thought of.",
     url: "https://kschramm.studio.mcad.edu/ailiwi/index.html ",
-    img: "img/Schramm_Kt_Ailiwi.png"
+    img: "img/Schramm_Kt_Ailiwi.jpg"
   },
   {
     title: "Embracing Design Limitations",
     by: "Lindsey Bemmels",
     description:
       "Can captivating and effective design be created with Microsoft Office alone?",
-    img: "img/Bemmels-Lindsey-Embracing-Design-Limitations.png",
+    img: "img/Bemmels-Lindsey-Embracing-Design-Limitations.jpg",
     url: "http://embracinglimitations.com/"
   },
   {
@@ -97,7 +97,7 @@ const projects = [
     description:
       "Smart building.Connected Knocknock is an integrated app providing a digital solutions for people living in the same building or neighborhood.",
     url: "http://cuixianning.com/capstone/",
-    img: "img/xianning_cui_knocknock.png"
+    img: "img/xianning_cui_knocknock.jpg"
   },
   {
     by: "Nick Martin",
@@ -122,7 +122,7 @@ const projects = [
       "Designing the annual poster for the Irish Fair of Minnesota for its 40th anniversary, and using this design to rebrand the IFM for 2019.",
     url:
       "https://jmooridianjr.studio.mcad.edu/Capstone%20Web%20Page/index3.html",
-    img: "img/Mooridian_Jeff_IFMPosterAnnualRebrand.png"
+    img: "img/Mooridian_Jeff_IFMPosterAnnualRebrand.jpg"
   },
   {
     by: "Mónica Nadal",
