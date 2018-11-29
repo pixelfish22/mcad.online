@@ -1,4 +1,4 @@
-export default [
+const projects = [
   {
     title: "I Call You Friend",
     by: "Michelle Butts",
@@ -64,6 +64,7 @@ export default [
     by: "Lindsey Bemmels",
     description:
       "Can captivating and effective design be created with Microsoft Office alone?",
+    img: "img/Bemmels-Lindsey-Embracing-Design-Limitations.png",
     url: "http://embracinglimitations.com/"
   },
   {
@@ -129,5 +130,28 @@ export default [
     description: "Votemos is a nonpartisan voter site created for Puerto Rico.",
     url: "https://mnadal.github.io/",
     img: "img/votemosicon_mcad_icon.png"
+  },
+  {
+    by: "John Valko",
+    title: "Big Ideas",
+    description:
+      "Community Fosters Creativity: The Whittier Alliance BIG IDEAS Grant.",
+    url: "https://www.hellovalko.com/big-ideas",
+    img: "img/valko_john_bigideas.png"
   }
 ];
+
+const getLastName = fullName => {
+  const names = fullName.split(" ");
+  return names[1];
+};
+
+function byLastName(project1, project2) {
+  const lastname1 = getLastName(project1.by).toUpperCase();
+  const lastname2 = getLastName(project2.by).toUpperCase();
+  if (lastname1 < lastname2) return -1;
+  if (lastname1 > lastname2) return 1;
+  return 0;
+}
+
+export default projects.sort(byLastName);
