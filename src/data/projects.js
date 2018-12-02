@@ -10,7 +10,7 @@ const projects = [
     title: "Calma",
     by: "Tomie Castillo",
     description: "Emotional well-being through color and design.",
-    url: "https://tcastillo.studio.mcad.edu/Calma",
+    url: "https://tcastillo.studio.mcad.edu/Calma_2/",
     img: "img/Castillo_Tomie_Calma.png"
   },
   {
