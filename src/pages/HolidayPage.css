@@ -3,14 +3,9 @@
   --block-height: calc(100vh / 7);
 }
 
-.holiday-app img {
-  max-height: 100%;
-}
-
 .holiday-app .page-header,
 .holiday-app .page-footer {
   font-size: 1rem;
-  background: lightblue;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -27,27 +22,29 @@
   margin: 0;
 }
 
+.holiday-app .snowman {
+  position: relative;
+}
+
 .holiday-app .snowman__top,
 .holiday-app .snowman__bottom {
   height: calc(2 * var(--block-height));
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
 }
 .holiday-app .snowman__middle {
   height: var(--block-height);
   --border-color: #ccc;
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
 }
 
-.holiday-app .snowman img.is-active {
-  display: block;
+.holiday-app .snowman__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
 }
-
-.holiday-app .snowman img {
-  display: none;
+.holiday-app .snowman__background img {
+  width: 100%;
 }

@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
+import ImageCarousel from "../components/ImageCarousel";
 import shuffle from "../lib/shuffle";
+
 import "./HolidayPage.css";
 
 const snowman = {
@@ -31,60 +33,33 @@ const snowman = {
     "snow-bottom-father.png",
     "snow-bottom-baseball.png",
     "snow-bottom-samurai.png",
-    "show-bottom-ghost.png"
-  ])
+    "snow-bottom-ghost.png"
+  ]),
+  backgrounds: shuffle(["snow-bg-sunset.png", "snow-bg-wintery.png"])
 };
 
-const renderSnowmanSegment = (imgArray, activeIndex) =>
-  imgArray.map((img, i) => (
-    <img
-      key={i}
-      src={`img/holiday/${img}`}
-      className={activeIndex === i ? "is-active" : ""}
-      alt="Snowman Top"
-    />
-  ));
-
-const getNextIndex = (arr, current) => (current + 1) % arr.length;
-
-export default () => {
-  const [topItemIndex, setTopItemIndex] = useState(0);
-  const [middleItemIndex, setMiddleItemIndex] = useState(0);
-  const [bottomItemIndex, setBottomItemIndex] = useState(0);
-
-  const handleTopItemClick = () => {
-    const nextIndex = getNextIndex(snowman.tops, topItemIndex);
-    setTopItemIndex(nextIndex);
-  };
-  const handleMiddleItemClick = () => {
-    const nextIndex = getNextIndex(snowman.middles, middleItemIndex);
-    setMiddleItemIndex(nextIndex);
-  };
-  const handleBottomItemClick = () => {
-    const nextIndex = getNextIndex(snowman.bottoms, bottomItemIndex);
-    setBottomItemIndex(nextIndex);
-  };
-
-  return (
-    <div className="holiday-app">
-      <header className="page-header">
-        <h1>Happy Holidays</h1>
-      </header>
-      <main className="snowman">
-        <div className="snowman__top" onClick={handleTopItemClick}>
-          {renderSnowmanSegment(snowman.tops, topItemIndex)}
-        </div>
-        <div className="snowman__middle" onClick={handleMiddleItemClick}>
-          {renderSnowmanSegment(snowman.middles, middleItemIndex)}
-        </div>
-        <div className="snowman__bottom" onClick={handleBottomItemClick}>
-          {renderSnowmanSegment(snowman.bottoms, bottomItemIndex)}
-        </div>
-      </main>
-      <footer className="page-footer">
-        <p>From Your Friends in Online Learning</p>
-        <p>James, Alex, and Yuta</p>
-      </footer>
+export default () => (
+  <div className="holiday-app">
+    <header className="page-header">
+      <h1>Happy Holidays</h1>
+    </header>
+    <main className="snowman">
+      <div className="snowman__top">
+        <ImageCarousel images={snowman.tops} />
+      </div>
+      <div className="snowman__middle">
+        <ImageCarousel images={snowman.middles} />
+      </div>
+      <div className="snowman__bottom">
+        <ImageCarousel images={snowman.bottoms} />
+      </div>
+    </main>
+    <footer className="page-footer">
+      <p>From Your Friends in Online Learning</p>
+      <p>James, Alex, and Yuta</p>
+    </footer>
+    <div className="snowman__background">
+      <ImageCarousel images={snowman.backgrounds} />
     </div>
-  );
-};
+  </div>
+);
