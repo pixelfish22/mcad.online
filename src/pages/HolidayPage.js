@@ -8,21 +8,30 @@ const snowman = {
     "snow-top-magic.png",
     "snow-top-melt.png",
     "snow-top-wacky.png",
-    "snow-top-father.png"
+    "snow-top-father.png",
+    "snow-top-baseball.png",
+    "snow-top-samurai.png",
+    "snow-top-ghost.png"
   ]),
   middles: shuffle([
     "snow-middle-plain.png",
     "snow-middle-magic.png",
     "snow-middle-melt.png",
     "snow-middle-wacky.png",
-    "snow-middle-father.png"
+    "snow-middle-father.png",
+    "snow-middle-baseball.png",
+    "snow-middle-samurai.png",
+    "snow-middle-ghost.png"
   ]),
   bottoms: shuffle([
     "snow-bottom-plain.png",
     "snow-bottom-magic.png",
     "snow-bottom-melt.png",
     "snow-bottom-wacky.png",
-    "snow-bottom-father.png"
+    "snow-bottom-father.png",
+    "snow-bottom-baseball.png",
+    "snow-bottom-samurai.png",
+    "show-bottom-ghost.png"
   ])
 };
 

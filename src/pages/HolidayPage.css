@@ -30,14 +30,15 @@
 .holiday-app .snowman__top,
 .holiday-app .snowman__bottom {
   height: calc(2 * var(--block-height));
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   overflow: hidden;
 }
 .holiday-app .snowman__middle {
   height: var(--block-height);
-  border: 1px solid black;
+  --border-color: #ccc;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
   display: flex;
   justify-content: center;
   overflow: hidden;
