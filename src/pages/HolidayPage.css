@@ -1,0 +1,52 @@
+.holiday-app {
+  height: 100vh;
+  --block-height: calc(100vh / 7);
+}
+
+.holiday-app img {
+  max-height: 100%;
+}
+
+.holiday-app .page-header,
+.holiday-app .page-footer {
+  font-size: 1rem;
+  background: lightblue;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: var(--block-height);
+}
+
+.holiday-app .page-header h1 {
+  margin: 0;
+}
+
+.holiday-app .page-footer p {
+  margin: 0;
+}
+
+.holiday-app .snowman__top,
+.holiday-app .snowman__bottom {
+  height: calc(2 * var(--block-height));
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.holiday-app .snowman__middle {
+  height: var(--block-height);
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.holiday-app .snowman img.is-active {
+  display: block;
+}
+
+.holiday-app .snowman img {
+  display: none;
+}

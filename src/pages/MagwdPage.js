@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import AppHeader from "../components/AppHeader";
 import Card from "../components/Card";
 import projects from "../data/projects";
+import "./MagwdPage.css";
 
 class App extends Component {
   render() {
     return (
-      <div class="app">
+      <div className="magwd-app">
         <AppHeader name="Online Learning" />
         <main className="main grid">
           <div className="title-card">
