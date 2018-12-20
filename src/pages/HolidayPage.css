@@ -1,6 +1,16 @@
 .holiday-app {
   height: 100vh;
   --block-height: calc(100vh / 7);
+  font-family: "Vollkorn", serif;
+}
+
+@keyframes color-rotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(1turn);
+  }
 }
 
 .holiday-app .page-header,
@@ -16,10 +26,12 @@
 
 .holiday-app .page-header h1 {
   margin: 0;
+  font-size: 3rem;
 }
 
 .holiday-app .page-footer p {
   margin: 0;
+  font-size: 1.5rem;
 }
 
 .holiday-app .snowman {
@@ -47,4 +59,6 @@
 }
 .holiday-app .snowman__background img {
   width: 100%;
+  filter: hue-rotate(0deg);
+  animation: color-rotate 30s infinite;
 }

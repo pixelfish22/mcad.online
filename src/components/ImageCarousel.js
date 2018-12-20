@@ -28,7 +28,6 @@ export default ({ images, nav = true }) => {
     const nextIndex = mod(currentIndex + 1, images.length);
     setCurrentIndex(nextIndex);
   };
-
   return (
     <div className="image-carousel">
       {images.map((img, i) => (
@@ -39,13 +38,11 @@ export default ({ images, nav = true }) => {
           alt={img}
         />
       ))}
-      {nav ? (
+      {nav && (
         <ImageCarouselNav
           onClickPrevious={setToPrevious}
           onClickNext={setToNext}
         />
-      ) : (
-        ""
       )}
     </div>
   );

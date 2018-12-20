@@ -35,31 +35,37 @@ const snowman = {
     "snow-bottom-samurai.png",
     "snow-bottom-ghost.png"
   ]),
-  backgrounds: shuffle(["snow-bg-sunset.png", "snow-bg-wintery.png"])
+  backgrounds: shuffle([
+    "snow-bg-sunset.png"
+    // "snow-bg-wintery.png",
+  ])
 };
 
-export default () => (
-  <div className="holiday-app">
-    <header className="page-header">
-      <h1>Happy Holidays</h1>
-    </header>
-    <main className="snowman">
-      <div className="snowman__top">
-        <ImageCarousel images={snowman.tops} />
+export default () => {
+  return (
+    <div className="holiday-app">
+      <main className="snowman">
+        <div className="snowman__top">
+          <ImageCarousel images={snowman.tops} />
+        </div>
+        <div className="snowman__middle">
+          <ImageCarousel images={snowman.middles} />
+        </div>
+        <div className="snowman__bottom">
+          <ImageCarousel images={snowman.bottoms} />
+        </div>
+      </main>
+      <header className="page-header">
+        <h1>Happy Holidays</h1>
+      </header>
+
+      <footer className="page-footer">
+        <p>From your friends in Online Learning</p>
+        <p>James, Alex, and Yuta</p>
+      </footer>
+      <div className="snowman__background">
+        <ImageCarousel images={snowman.backgrounds} nav={false} />
       </div>
-      <div className="snowman__middle">
-        <ImageCarousel images={snowman.middles} />
-      </div>
-      <div className="snowman__bottom">
-        <ImageCarousel images={snowman.bottoms} />
-      </div>
-    </main>
-    <footer className="page-footer">
-      <p>From Your Friends in Online Learning</p>
-      <p>James, Alex, and Yuta</p>
-    </footer>
-    <div className="snowman__background">
-      <ImageCarousel images={snowman.backgrounds} />
     </div>
-  </div>
-);
+  );
+};
