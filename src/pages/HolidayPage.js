@@ -54,6 +54,9 @@ export default () => {
         <div className="snowman__bottom">
           <ImageCarousel images={snowman.bottoms} />
         </div>
+        <div className="snowman__background">
+          <ImageCarousel images={snowman.backgrounds} nav={false} />
+        </div>
       </main>
       <header className="page-header">
         <h1>Happy Holidays</h1>
@@ -63,9 +66,6 @@ export default () => {
         <p>From your friends in Online Learning</p>
         <p>James, Alex, and Yuta</p>
       </footer>
-      <div className="snowman__background">
-        <ImageCarousel images={snowman.backgrounds} nav={false} />
-      </div>
     </div>
   );
 };
