@@ -1,33 +1,41 @@
-import React, { Component } from "react";
+import React from "react";
 import AppHeader from "../components/AppHeader";
 import Card from "../components/Card";
-import projects from "../data/projects";
+import terms from "../data/terms";
 import "./MagwdPage.css";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="magwd-app">
-        <AppHeader name="Online Learning" />
-        <main className="main grid">
-          <div className="title-card">
-            <h1>Master of Arts in Graphic and Web Design</h1>
-            <p className="exhibition-name">Capstone Projects</p>
-            <p className="year">Fall 2018</p>
-          </div>
-          {projects.map(project => (
-            <Card key={project.title} {...project} />
-          ))}
-        </main>
-        <footer className="page-footer">
-          <p>Minneapolis College of Art and Design</p>
-          <p>
-            <a href="https://mcad.edu/magwd">mcad.edu/magwd</a>
-          </p>
-        </footer>
+const ProjectList = ({ name, projects }) => (
+  <section className="project-list">
+    <h2 className="project-list__title">{name}</h2>
+    <div className="project-list__contents grid">
+      {projects.map(project => (
+        <Card key={project.title} {...project} />
+      ))}
+    </div>
+  </section>
+);
+
+const App = () => (
+  <div className="magwd-app">
+    <AppHeader name="Online Learning" />
+    <main className="main">
+      <header className="page-header">
+        <h1>Master of Arts in Graphic and Web Design</h1>
+        <p className="exhibition-name">Capstone Projects</p>
+      </header>
+      <div>
+        {terms.map(term => (
+          <ProjectList {...term} />
+        ))}
       </div>
-    );
-  }
-}
+    </main>
+    <footer className="page-footer">
+      <p>Minneapolis College of Art and Design</p>
+      <p>
+        <a href="https://mcad.edu/magwd">mcad.edu/magwd</a>
+      </p>
+    </footer>
+  </div>
+);
 
 export default App;
