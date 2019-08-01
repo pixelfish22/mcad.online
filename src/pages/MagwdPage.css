@@ -1,6 +1,6 @@
 .magwd-app {
   margin-top: 3rem;
-  background: #ddd;
+  background: #fff;
 }
 
 .magwd-app img {
@@ -8,12 +8,9 @@
 }
 
 .magwd-app .grid {
-  margin: 0.5rem auto;
-  padding: 0.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   grid-gap: 1rem;
-  max-width: 100rem;
 }
 
 .magwd-app .page-footer {
@@ -27,4 +24,52 @@
 .magwd-app .page-footer a {
   color: white;
   text-decoration: none;
+}
+
+.magwd-app .container {
+  max-width: 60rem;
+  padding: 1rem;
+}
+
+.magwd-app .page-header h1,
+.magwd-app .page-header p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.magwd-app .page-header {
+  position: relative;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin: 8rem 0 4rem;
+}
+.magwd-app .page-header:after {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 0.25rem;
+  background: #333;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.project-list__title {
+  position: sticky;
+  top: 2.75rem;
+  z-index: 10;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.project-list {
+  margin-top: 4rem;
+}
+
+.project-list:nth-of-type(2n + 1) {
+  background: #ddd;
 }

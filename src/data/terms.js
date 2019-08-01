@@ -1,4 +1,4 @@
-import sp2019projects from "./projects-2018FA";
+import fa2018projects from "./projects-2018FA";
 import su2019projects from "./projects-2019SU";
 
 const getLastName = fullName => {
@@ -20,8 +20,8 @@ const terms = [
     projects: su2019projects.sort(byLastName)
   },
   {
-    name: "Spring 2019",
-    projects: sp2019projects.sort(byLastName)
+    name: "Fall 2018",
+    projects: fa2018projects.sort(byLastName)
   }
 ];
 

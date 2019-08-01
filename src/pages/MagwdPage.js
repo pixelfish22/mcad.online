@@ -5,7 +5,7 @@ import terms from "../data/terms";
 import "./MagwdPage.css";
 
 const ProjectList = ({ name, projects }) => (
-  <section className="project-list">
+  <section className="project-list container">
     <h2 className="project-list__title">{name}</h2>
     <div className="project-list__contents grid">
       {projects.map(project => (
@@ -17,9 +17,9 @@ const ProjectList = ({ name, projects }) => (
 
 const App = () => (
   <div className="magwd-app">
-    <AppHeader name="Online Learning" />
+    <AppHeader name="MA in Graphic and Web Design" />
     <main className="main">
-      <header className="page-header">
+      <header className="page-header container">
         <h1>Master of Arts in Graphic and Web Design</h1>
         <p className="exhibition-name">Capstone Projects</p>
       </header>
