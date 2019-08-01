@@ -27,8 +27,10 @@
 }
 
 .magwd-app .container {
-  max-width: 60rem;
+  max-width: 100rem;
   padding: 1rem;
+  margin: 0 auto;
+  position: relative;
 }
 
 .magwd-app .page-header h1,
@@ -40,20 +42,18 @@
 
 .magwd-app .page-header {
   position: relative;
-  text-align: center;
-  padding: 1.5rem 0;
-  margin: 8rem 0 4rem;
+  padding: 4rem 0 2rem;
 }
-.magwd-app .page-header:after {
+
+.magwd-app .page-header .container:after {
   content: "";
   display: block;
   width: 5rem;
   height: 0.25rem;
   background: #333;
   position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: -1rem;
+  left: 1rem;
 }
 
 .project-list__title {
@@ -63,7 +63,6 @@
   font-size: 1.25rem;
   text-transform: uppercase;
   padding: 0.5rem 0;
-  text-align: center;
 }
 
 .project-list {
@@ -71,5 +70,5 @@
 }
 
 .project-list:nth-of-type(2n + 1) {
-  background: #ddd;
+  background: #efefef;
 }

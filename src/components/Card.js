@@ -8,7 +8,7 @@ export default ({ title, by, url, img, description }) => (
       {img ? (
         <img src={img} alt={title} />
       ) : (
-        <div className="img-placeholder">Placeholder</div>
+        <div className="img-placeholder" />
       )}
     </a>
     <div className="card-label">
