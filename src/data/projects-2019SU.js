@@ -25,7 +25,7 @@ export default [
   {
     title: "Surveil",
     by: "Sarah Wolf",
-    description: "How can one stand up publicly for one’s most private choice?",
+    description: "The future was yesterday: Does data privacy matter? ",
     url: "https://sur-veil.us",
     img: "img/magwd/2019SU/wolf_sarah_surveil.png"
   }
