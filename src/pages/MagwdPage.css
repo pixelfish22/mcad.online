@@ -1,6 +1,7 @@
 .magwd-app {
   margin-top: 3rem;
-  background: #fff;
+  /* background: url("../img/Waimakariri-light.svg") no-repeat #fff fixed; */
+  background-size: contain;
 }
 
 .magwd-app img {
@@ -44,8 +45,9 @@
 
 .magwd-app .page-header {
   position: relative;
-  padding: 4rem 0 2rem;
-  margin-bottom: 6rem;
+  padding: 6rem 0 8rem;
+  /* background: url("../img/Waimakariri-light.svg") no-repeat #fff; */
+  background-size: cover;
 }
 
 .magwd-app .page-header .container:after {
@@ -88,5 +90,5 @@
 
 .project-list:nth-of-type(2n),
 .project-list:nth-of-type(2n) .project-list__title {
-  background: #ddd;
+  background: #dedede;
 }

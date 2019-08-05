@@ -10,7 +10,7 @@ const ProjectList = ({ name, projects }) => (
       <h2 className="project-list__title">{name}</h2>
       <div className="project-list__contents grid">
         {projects.map(project => (
-          <Card key={project.title} {...project} />
+          <Card key={project.by} {...project} />
         ))}
       </div>
     </div>
@@ -31,7 +31,7 @@ const App = () => (
       </header>
       <div>
         {terms.map(term => (
-          <ProjectList {...term} />
+          <ProjectList key={term.name} {...term} />
         ))}
       </div>
     </main>
