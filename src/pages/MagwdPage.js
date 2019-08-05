@@ -23,8 +23,10 @@ const App = () => (
     <main className="main">
       <header className="page-header">
         <div className="container">
-          <h1>Master of Arts in Graphic and Web Design</h1>
-          <p className="exhibition-name">Capstone Projects</p>
+          <h1>
+            Master of Arts in Graphic and Web Design{" "}
+            <span className="exhibition-name">Capstone Projects</span>
+          </h1>
         </div>
       </header>
       <div>
