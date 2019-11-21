@@ -1,6 +1,5 @@
 .magwd-app {
   margin-top: 3rem;
-  /* background: url("../img/Waimakariri-light.svg") no-repeat #fff fixed; */
   background-size: contain;
 }
 
@@ -46,7 +45,6 @@
 .magwd-app .page-header {
   position: relative;
   padding: 6rem 0 8rem;
-  /* background: url("../img/Waimakariri-light.svg") no-repeat #fff; */
   background-size: cover;
 }
 

@@ -28,5 +28,12 @@ export default [
     description: "The future was yesterday: Does data privacy matter? ",
     url: "https://sur-veil.us",
     img: "img/magwd/2019SU/wolf_sarah_surveil.png"
+  },
+  {
+    title: "So, What Now?",
+    by: "Meg Alles",
+    description: "Death sucks. We’re here to help. ",
+    url: "https://megalles.github.io/swn/",
+    img: "img/magwd/2019SU/alles_meg_sowhatnow.png"
   }
 ];
