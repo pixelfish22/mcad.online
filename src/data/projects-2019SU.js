@@ -8,13 +8,6 @@ export default [
     img: "img/magwd/2019SU/scarlson973_thumbnail.png"
   },
   {
-    title: "Thank You For Your Concern",
-    by: "Sara Richardson",
-    description: "How can one stand up publicly for one’s most private choice?",
-    url: "https://hellosaraann.github.io/capstone-page/",
-    img: "img/magwd/2019SU/richardson_sara_thank-you.png"
-  },
-  {
     title: "A Beautiful Threshold",
     by: "Brian Thue",
     description:
