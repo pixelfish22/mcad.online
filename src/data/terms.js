@@ -1,8 +1,9 @@
 import fa2018projects from "./projects-2018FA";
 import su2019projects from "./projects-2019SU";
 import fa2019projects from "./projects-2019FA";
+import su2020projects from "./projects-2020SU";
 
-const getLastName = fullName => {
+const getLastName = (fullName) => {
   const names = fullName.split(" ");
   return names[1];
 };
@@ -17,22 +18,26 @@ function byLastName(project1, project2) {
 
 const terms = [
   {
+    name: "Summer 2020",
+    projects: su2020projects.sort(byLastName),
+  },
+  {
     name: "Fall 2019",
-    projects: fa2019projects.sort(byLastName)
+    projects: fa2019projects.sort(byLastName),
   },
   {
     name: "Summer 2019",
-    projects: su2019projects.sort(byLastName)
+    projects: su2019projects.sort(byLastName),
   },
   {
     name: "Fall 2018",
-    projects: fa2018projects.sort(byLastName)
-  }
+    projects: fa2018projects.sort(byLastName),
+  },
 ];
 
-const sortObjKeyBy = (key, sortingFn) => obj => ({
+const sortObjKeyBy = (key, sortingFn) => (obj) => ({
   ...obj,
-  [key]: obj[key].sort(sortingFn)
+  [key]: obj[key].sort(sortingFn),
 });
 
 export default terms.map(sortObjKeyBy("projects", byLastName));
