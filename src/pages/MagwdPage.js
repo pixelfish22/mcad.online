@@ -9,7 +9,7 @@ const ProjectList = ({ name, projects }) => (
     <div className="container">
       <h2 className="project-list__title">{name}</h2>
       <div className="project-list__contents grid">
-        {projects.map(project => (
+        {projects.map((project) => (
           <Card key={project.by} {...project} />
         ))}
       </div>
@@ -19,7 +19,7 @@ const ProjectList = ({ name, projects }) => (
 
 const App = () => (
   <div className="magwd-app">
-    <AppHeader name="Graphic and Web Design" />
+    <AppHeader />
     <main className="main">
       <header className="page-header">
         <div className="container">
@@ -30,7 +30,7 @@ const App = () => (
         </div>
       </header>
       <div>
-        {terms.map(term => (
+        {terms.map((term) => (
           <ProjectList key={term.name} {...term} />
         ))}
       </div>

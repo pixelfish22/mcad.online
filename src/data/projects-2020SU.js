@@ -5,7 +5,7 @@ export default [
     description:
       "A visual exploration of automobile dominance in Minneapolis with strategies to return power to pedestrians by way of graphic and urban design.",
     url: "https://cbretheim.github.io/Capstone/",
-    img: "img/magwd/2020SU/bretheim_power.png",
+    img: "img/magwd/2020SU/bretheim_power.jpg",
   },
   {
     by: "Annette Cliff",
@@ -19,7 +19,7 @@ export default [
     title: "The Mostly Untrue But Plausible History of Minneapolis",
     description: "Minneapolis tall tales experienced with augmented reality.",
     url: "https://austin1227.github.io/CapstonePage/",
-    img: "img/magwd/2020SU/gullixson_augmentedHistory.png",
+    img: "img/magwd/2020SU/gullixson_augmentedHistory.jpg",
   },
   {
     by: "Kelly Horigan",
@@ -27,7 +27,7 @@ export default [
     description:
       "A case study for .govs to adopt a web design system. Advocating for a National Center for Biotechnology Information Design System named Chromo.",
     url: "https://webdesignsystem.github.io/chromo",
-    img: "img/magwd/2020SU/horigan_chromo.jpg",
+    img: "img/magwd/2020SU/horigan_chromo.png",
   },
   {
     by: "Rachel Klimpel",
