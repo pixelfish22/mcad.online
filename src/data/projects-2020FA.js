@@ -5,7 +5,7 @@ export default [
     description:
       "A year-long, once a week cooking adventure for those looking for a little inspiration in their kitchen.",
     url: "https://jblaeser.github.io/capstone-page",
-    img: "img/magwd/2020FA/blaser_chef.png",
+    img: "img/magwd/2020FA/blaeser_chef.png",
   },
   {
     by: "Molly Davis",
@@ -33,7 +33,7 @@ export default [
     by: "Jenna Murphy",
     title: "Discover a Space Between",
     description: "A hybrid exhibition to highlight how digital exhibit companion pieces can increase engagement and understanding of artists' work",
-    url: "https://jennamurhpymcad.github.io/Capstone-Page/",
+    url: "https://jennamurphymcad.github.io/Capstone-Page/",
     img: "img/magwd/2020FA/murphy_space.png",
   },
   {
