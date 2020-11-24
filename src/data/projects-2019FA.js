@@ -1,37 +1,5 @@
 export default [
   {
-    title: "Romantic Distortions",
-    by: "Jane Campbell",
-    description:
-      "A graphic and editorial exploration of nostalgia and memory through multiple lenses.",
-    url: "https://jcampbell.studio.mcad.edu/capstone-page/home.html",
-    img: "img/magwd/2019FA/Campbell_Jane_RomanticDistortions.png"
-  },
-  {
-    title: "Print\\Resist\\Project",
-    by: "Tim Cronin",
-    description:
-      "An initiative that brings screen printing and design thinking to queer youth to facilitate self expression and political resistance.",
-    url: "https://print-resist-project.timcronindesign.com/capstone-page/",
-    img: "img/magwd/2019FA/Cronin_Tim_PrintResistProject.png"
-  },
-  {
-    by: "Emily Csuy",
-    title: "Bi+ Us",
-    description:
-      "A media guide for bi+ people using positive representation to address the issue of bisexual erasure.",
-    url: "https://ecsuy.studio.mcad.edu/ec/capstone/capstone.html",
-    img: "img/magwd/2019FA/Csuy_Emily_Bi+Us.png"
-  },
-  {
-    by: "Sonya Dunn",
-    title: "Auntie Sonja Cares",
-    description:
-      "A business identity and branding project to promote Auntie Sonja Cares; a business that provides short-term pet and people care.",
-    url: "https://sdunn.studio.mcad.edu/auntiesonjacares.html",
-    img: "img/magwd/2019FA/Dunn_Sonya_AuntieSonjaCares.png"
-  },
-  {
     by: "Briana Gruenewald",
     title: "Bellmont Gives Back",
     description:
@@ -44,7 +12,7 @@ export default [
     title: "Whole U",
     description:
       "Cultivating empathy in kids through insight learning and play.",
-    url: "https://smann.studio.mcad.edu/capstone-page/",
+    url: "http://stacy-mann-portfolio.com/folio-whole-u.php",
     img: "img/magwd/2019FA/mann_stacy_whole-u.png"
   },
   {
@@ -68,7 +36,7 @@ export default [
     title: "Mobile Application for Concessions Sales",
     description: "Are Stadium Owners Leaving Money on the Table?",
     url:
-      "https://gvespasiano.studio.mcad.edu/Fall2019Portfolio/GVPortfolio/targetfield.html",
+      "https://gvespasiano.github.io/targetf.html",
     img: "img/magwd/2019FA/vespasiano_gabe_TargetField.png"
   },
   {
