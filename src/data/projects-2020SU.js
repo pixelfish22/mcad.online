@@ -22,27 +22,11 @@ export default [
     img: "img/magwd/2020SU/gullixson_augmentedHistory.jpg",
   },
   {
-    by: "Kelly Horigan",
-    title: "Chromo Design System",
-    description:
-      "A case study for .govs to adopt a web design system. Advocating for a National Center for Biotechnology Information Design System named Chromo.",
-    url: "https://webdesignsystem.github.io/chromo",
-    img: "img/magwd/2020SU/horigan_chromo.png",
-  },
-  {
     by: "Rachel Klimpel",
     title: "Branding Expansion for a Biodynamic Winery",
     description: "Realizing the harmony of nature.",
     url: "https://rklimpel-315.github.io/Capstone_Biodynamic/",
     img: "img/magwd/2020SU/klimpel_biodynamicWinery.png",
-  },
-  {
-    by: "Madi Kurvers",
-    title: "The Lung Cancer Label: A Lung Cancer Awareness Campaign",
-    description:
-      "A bright and bold digital campaign with the goal of raising awareness for lung cancer.",
-    url: "https://mkurvers.github.io/the_lung_cancer_label/",
-    img: "img/magwd/2020SU/kurvers_lungCancerLabel.png",
   },
   {
     by: "Stephen Lenius",
