@@ -1,4 +1,4 @@
-export default [
+const projects2020Su = [
   {
     title: "Power to the Pedestrian",
     by: "Catherine Bretheim",
@@ -59,3 +59,5 @@ export default [
     img: "img/magwd/2020SU/wainstock_millennialdadproject.png",
   },
 ];
+
+export default projects2020Su;

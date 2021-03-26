@@ -6,7 +6,7 @@ import HolidayPage from "../pages/HolidayPage";
 
 import "./App.css";
 
-export default () => (
+const App = () => (
   <Router>
     <Switch>
       <Route exact path="/" component={MagwdPage} />
@@ -15,3 +15,5 @@ export default () => (
     </Switch>
   </Router>
 );
+
+export default App;

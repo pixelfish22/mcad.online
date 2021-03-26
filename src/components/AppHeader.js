@@ -2,4 +2,6 @@ import React from "react";
 
 import "./AppHeader.css";
 
-export default () => <header className="app-header">MCAD</header>;
+const AppHeader = () => <header className="app-header">MCAD</header>;
+
+export default AppHeader;

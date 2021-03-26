@@ -1,4 +1,4 @@
-export default [
+const projects2020Fa = [
   {
     title: "The Once a Week Chef",
     by: "Jill Blaeser",
@@ -10,14 +10,16 @@ export default [
   {
     by: "Molly Davis",
     title: "Food for Thought",
-    description: "Connecting students who are experiencing food insecurity with existing campus resources, helping them locate fresh, healthy food.",
+    description:
+      "Connecting students who are experiencing food insecurity with existing campus resources, helping them locate fresh, healthy food.",
     url: "https://mdavis7a.github.io/CapstonePage/",
     img: "img/magwd/2020FA/davis_thought.png",
   },
   {
     by: "Jessa Farkas",
     title: "Barnes Witz",
-    description: "An interactive webspace designed for teens to explore and be inspired by the Philadelphia Barnes Foundation collection.",
+    description:
+      "An interactive webspace designed for teens to explore and be inspired by the Philadelphia Barnes Foundation collection.",
     url: "https://jfark.github.io/myprojectpage/index.html",
     img: "img/magwd/2020FA/farkas_witz.png",
   },
@@ -32,7 +34,8 @@ export default [
   {
     by: "Jenna Murphy",
     title: "Discover a Space Between",
-    description: "A hybrid exhibition to highlight how digital exhibit companion pieces can increase engagement and understanding of artists' work",
+    description:
+      "A hybrid exhibition to highlight how digital exhibit companion pieces can increase engagement and understanding of artists' work",
     url: "https://jennamurphymcad.github.io/Capstone-Page/",
     img: "img/magwd/2020FA/murphy_space.png",
   },
@@ -47,8 +50,11 @@ export default [
   {
     by: "Tiffany Wolff",
     title: "Famished",
-    description: "A look at feminine social issues through books, food and photography.",
+    description:
+      "A look at feminine social issues through books, food and photography.",
     url: "https://tiffany-wolff.github.io/famished/",
     img: "img/magwd/2020FA/wolff_famished.png",
   },
 ];
+
+export default projects2020Fa;

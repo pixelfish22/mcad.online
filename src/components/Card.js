@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Card.css";
 
-export default ({ title, by, url, img, description }) => (
+const Card = ({ title, by, url, img, description }) => (
   <div className="card">
     <a href={url}>
       <div className="card__img-container">
@@ -22,3 +22,5 @@ export default ({ title, by, url, img, description }) => (
     </div>
   </div>
 );
+
+export default Card;

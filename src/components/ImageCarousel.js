@@ -18,7 +18,7 @@ const ImageCarouselNav = ({ onClickPrevious, onClickNext }) => (
   </nav>
 );
 
-export default ({ images, nav = true }) => {
+const ImageCarousel = ({ images, nav = true }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const setToPrevious = () => {
     const prevIndex = mod(currentIndex - 1, images.length);
@@ -47,3 +47,5 @@ export default ({ images, nav = true }) => {
     </div>
   );
 };
+
+export default ImageCarousel;
