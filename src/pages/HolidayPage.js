@@ -13,7 +13,7 @@ const snowman = {
     "snow-top-father.png",
     "snow-top-baseball.png",
     "snow-top-samurai.png",
-    "snow-top-ghost.png"
+    "snow-top-ghost.png",
   ]),
   middles: shuffle([
     "snow-middle-plain.png",
@@ -23,7 +23,7 @@ const snowman = {
     "snow-middle-father.png",
     "snow-middle-baseball.png",
     "snow-middle-samurai.png",
-    "snow-middle-ghost.png"
+    "snow-middle-ghost.png",
   ]),
   bottoms: shuffle([
     "snow-bottom-plain.png",
@@ -33,15 +33,15 @@ const snowman = {
     "snow-bottom-father.png",
     "snow-bottom-baseball.png",
     "snow-bottom-samurai.png",
-    "snow-bottom-ghost.png"
+    "snow-bottom-ghost.png",
   ]),
   backgrounds: shuffle([
-    "snow-bg-sunset.png"
+    "snow-bg-sunset.png",
     // "snow-bg-wintery.png",
-  ])
+  ]),
 };
 
-export default () => {
+const HolidayPage = () => {
   return (
     <div className="holiday-app">
       <main className="snowman">
@@ -69,3 +69,5 @@ export default () => {
     </div>
   );
 };
+
+export default HolidayPage;
