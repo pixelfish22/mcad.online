@@ -24,22 +24,6 @@ const projects2019Fa = [
     img: "img/magwd/2019FA/mann_stacy_whole-u.png",
   },
   {
-    by: "Betsy Olaussen",
-    title: "Project MESH",
-    description:
-      "Project MESH explores the relationship between humans and technology, and other 21st century relationships.",
-    url: "https://bolaussen1338.github.io/projectmesh/",
-    img: "img/magwd/2019FA/olaussen_betsy_ProjectMESH.png",
-  },
-  {
-    by: "Ellen Thomson",
-    title: "Zu Von",
-    description:
-      "Zu Von helps parents safely navigate the drop-off/pick-up zone and offers eco-friendly ways to get to (zu) and from (von) the Twin Cities German Immersion School.",
-    url: "http://ellenart.com/capstone/",
-    img: "img/magwd/2019FA/thomson_ellen_zuvon.png",
-  },
-  {
     by: "Gabe Vespasiano",
     title: "Mobile Application for Concessions Sales",
     description: "Are Stadium Owners Leaving Money on the Table?",
