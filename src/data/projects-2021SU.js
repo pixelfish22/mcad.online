@@ -11,7 +11,7 @@ const projects2021Su = [
     by: "Eve Badran",
     title: "Peachy Cycles",
     description: "A safe space that brings inclusivity to the bicycling scene.",
-    url: "https://ivineb.github.io/peachy-cycles/index.html/",
+    url: "https://ivineb.github.io/peachy-cycles/",
     img: "img/magwd/2021SU/badran_eve_peachy-cycles.png",
   },
   {
@@ -71,7 +71,7 @@ const projects2021Su = [
     title: "Ingredient Endeavors - I.E.",
     description:
       "A meal planning application to help with problem solving weekly and day-to-day challenges based on available ingredients.",
-    url: "https://kstrangem.github.io/Capstone-Website-/index.html/",
+    url: "https://kstrangem.github.io/Capstone-Website-/",
     img: "img/magwd/2021SU/strange_katie_IE.png",
   },
 ];
