@@ -22,22 +22,6 @@ const projects2018Fa = [
     img: "img/magwd/2018FA/ogden_alex_happyocean.png",
   },
   {
-    title: "Pattern Library",
-    by: "Kristi Bryden",
-    description:
-      "A practical approach to streamlining workflows and coding processes across teams.",
-    url: "http://kristibryden.com/PUBLIC/patternlibrary.html",
-    img: "img/magwd/2018FA/Bryden_Kristi_PatternLibrary.png",
-  },
-  {
-    by: "Sidney Cui",
-    title: "Knocknock",
-    description:
-      "Smart building.Connected Knocknock is an integrated app providing a digital solutions for people living in the same building or neighborhood.",
-    url: "http://cuixianning.com/capstone/",
-    img: "img/magwd/2018FA/xianning_cui_knocknock.jpg",
-  },
-  {
     by: "Ashley Mary",
     title: "Curiosity Studio",
     description:
