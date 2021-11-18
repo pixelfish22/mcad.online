@@ -4,6 +4,7 @@ import fa2019projects from "./projects-2019FA";
 import su2020projects from "./projects-2020SU";
 import fa2020projects from "./projects-2020FA";
 import su2021projects from "./projects-2021SU";
+import fa2021projects from "./projects-2021FA";
 
 const getLastName = (fullName) => {
   const names = fullName.split(" ");
