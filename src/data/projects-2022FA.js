@@ -24,5 +24,5 @@ const projects2022Fa = [
     },
   ];
   
-  export default projects2021Fa;
+  export default projects2022Fa;
   
