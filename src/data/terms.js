@@ -23,7 +23,7 @@ function byLastName(project1, project2) {
 
 const terms = [
 
-   {
+  {
     name: "Fall 2022",
     projects: fa2022projects.sort(byLastName),
   },
