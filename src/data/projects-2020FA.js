@@ -11,7 +11,7 @@ const projects2020Fa = [
     by: "Molly Davis",
     title: "Food for Thought",
     description:
-      "Connecting students who are experiencing food insecurity with existing campus resources, helping them locate fresh, healthy food.",
+      "Connecting students experiencing food insecurity with existing campus resources, helping them locate fresh, healthy food.",
     url: "https://mdavis7a.github.io/CapstonePage/",
     img: "img/magwd/2020FA/davis_thought.png",
   },
