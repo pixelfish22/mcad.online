@@ -10,7 +10,7 @@ const projects2022Fa = [
       by: "Megan Hild",
       title: "Prompt",
       description:
-        "A resource for educators to creatively explore design with their students.",
+        "A resource for educators to creatively explore design with students.",
       url: "https://mehild.github.io/capstone2022/",
       img: "img/magwd/2022FA/Hild_Megan_Prompt.png",
     },
