@@ -16,5 +16,5 @@ const projects2023Sp = [
     },
   ];
   
-  export default projects2023SP;
+  export default projects2023Sp;
   
