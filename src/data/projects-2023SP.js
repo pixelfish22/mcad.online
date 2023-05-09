@@ -10,7 +10,7 @@ const projects2023Sp = [
       by: "Amy Jo Flattum",
       title: "Who Made Who",
       description:
-        "Custom crafted art kits contain all the tools needed to boost creativity and learn your new favorite hobby.",
+        "Custom crafted art kits containing all the tools needed to boost creativity and learn your new favorite hobby.",
       url: "https://missamyjo.github.io/capstone/",
       img: "img/magwd/2023SP/AmyJo_whomadewho.png",
     },
