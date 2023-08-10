@@ -9,7 +9,7 @@ const projects2023Su = [
     {
       by: "Megan Constans",
       title: "The Hoppy Crafter",
-      description: "An brewing app teaching the science of craft beer brewing in an approachable manner from the comfort of home.",
+      description: "A brewing app teaching the science of craft beer brewing in an approachable manner from the comfort of home.",
       url: "https://mconstans.github.io/TheHoppyCrafter/",
       img: "img/magwd/2023SU/constans_crafter.png",
     },
