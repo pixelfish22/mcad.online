@@ -9,7 +9,7 @@ import "./App.css";
 const App = () => (
   <Router>
     <Switch>
-      <Route exact path="/" component={MagwdPage} />
+      <Route path="/" component={MagwdPage} />
       <Route path="/magwd" component={MagwdPage} />
       <Route path="/happy-holidays-2018" component={HolidayPage} />
     </Switch>
