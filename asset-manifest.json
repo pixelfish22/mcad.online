@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mcad.online/static/css/main.fd185d9f.css",
-    "main.js": "/mcad.online/static/js/main.805191fc.js",
+    "main.js": "/mcad.online/static/js/main.7607e756.js",
     "index.html": "/mcad.online/index.html",
     "main.fd185d9f.css.map": "/mcad.online/static/css/main.fd185d9f.css.map",
-    "main.805191fc.js.map": "/mcad.online/static/js/main.805191fc.js.map"
+    "main.7607e756.js.map": "/mcad.online/static/js/main.7607e756.js.map"
   },
   "entrypoints": [
     "static/css/main.fd185d9f.css",
-    "static/js/main.805191fc.js"
+    "static/js/main.7607e756.js"
   ]
 }
